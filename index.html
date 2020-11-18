@@ -110,27 +110,6 @@
               document.getElementsByTagName("DIV")[0].style.display = "inline-block";
             }
             </script>
-     <script>
-        window.onload = function(){
-        
-        var links = document.getElementsByTagName('a');
-        for( var i=0,il = links.length; i< il; i ++ ){
-         links[i].onclick = clickHandler;
-        }
-        
-        function clickHandler(event) {
-        
-        event.preventDefault();
-        
-        setTimeout(function() {
-        
-          location.href = this.href;
-        }, 3000);
-        
-        
-        };
-        };
-        </script>
 
             
 </body>
